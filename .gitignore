@@ -1,0 +1,2 @@
+# Ignoring the trained weights
+tracker/weights/*
