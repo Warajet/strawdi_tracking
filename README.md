@@ -33,7 +33,7 @@
 
    ```bash
    git clone https://github.com/yourusername/strawberry-tracker.git
-   cd strawberry-tracker
+   cd strawdi_tracking
    ```
 2. **Create a Virtual Environment**
 
@@ -51,13 +51,16 @@
 ## Usage
 ### Prepare the Dataset
 
-- Download the StrawDI dataset from here.
-- Ensure the dataset is properly organized according to the format required by the object detection model.
+Download the StrawDI dataset from [here](https://drive.google.com/file/d/1elFB-q9dgPbfnleA7qIrTb96Qsli8PZl/view) and run:
+
+  ```bash
+  cd strawdi_tracking
+  unzip dataset.zip
+  ```
   
 ### Train the Object Detector
 
   ```bash
-  Copy code
   python train_detector.py --dataset_path /path/to/strawdi/dataset
   ```
 
