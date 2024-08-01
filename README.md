@@ -75,7 +75,16 @@ Download the StrawDI dataset from [here](https://drive.google.com/file/d/1elFB-q
 
 ## Results
 Detection: The object detector should be able to identify strawberries with high accuracy.
+
+<div align="center">
+  <img src="https://github.com/Warajet/strawdi_tracking/blob/main/straw_di_detection_output.png" width="500" alt="Demo" />
+</div>
+
 Tracking: The tracking algorithm should maintain the identity of each detected strawberry throughout the video sequence.
+
+<div align="center">
+  <img src="https://github.com/Warajet/strawdi_tracking/blob/main/straw_di_tracking_output.gif" width="500" alt="Demo" />
+</div>
 
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests. Contributions are always welcome!
